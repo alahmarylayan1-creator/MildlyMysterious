@@ -1,0 +1,148 @@
+ROOM TO FIX
+This task is only for the first room:
+English name: The Portrait Room
+Arabic name: غرفة الصورة الشخصية
+Keep this room as a hidden-object game.
+Do not replace it with cards, matching, or another game.
+1) HIDDEN OBJECT GAMEPLAY
+Make the first room a clearer and more polished hidden-object game.
+Core gameplay
+The player must find the target objects by clicking them inside the room.
+Important fix
+The objects should not sit openly in the middle like obvious floating items.
+Instead:
+hide each object behind / between / partially inside furniture and decor
+make them feel naturally placed in the room
+each object should still remain discoverable and not too difficult
+show only part of the object if needed
+keep the challenge light and elegant, not frustrating
+Placement direction
+Hide objects visually around and behind existing room elements such as:
+bookshelf
+desk
+candles
+cup
+table edge
+books
+rug area
+vase area
+mirror / wall decor
+side furniture
+Objects should feel integrated into the scene, not pasted on top.
+2) INTERACTIVE GLOW EVERYWHERE
+Add a smooth glow to every interactive element in this room and its related overlays.
+This includes:
+hidden objects
+object labels
+guide panel
+hint button
+reset button
+main menu / back buttons
+confirm / cancel buttons in reset confirmation
+inventory or progress boxes
+key reveal panel
+key collect button
+any room control buttons
+any clickable card / modal / pop-up
+Glow behavior
+On hover:
+soft lavender / pink glow
+smooth transition
+slight lift or scale if appropriate
+make it clear the item is clickable
+On click:
+subtle pressed effect
+maintain elegant glow language consistent with the rest of the game
+Use the same glow style across the entire room so the interaction feels unified.
+3) GUIDE TEXT IN BOTH LANGUAGES
+Update the guide text for the first room so it clearly explains the hidden-object game.
+The guide should appear at the beginning of the room and use the selected guide character.
+Use the active language correctly.
+English guide copy
+If the selected guide is Dawn:
+Title: Dawn
+Subtitle: The Gentle Dreamer
+Guide text:
+Look closely. Some clues hide in plain sight. Find the hidden objects in the room, and once all are discovered, the golden key will appear. Click the key to collect it and continue your journey.
+If the selected guide is Dusk:
+Title: Dusk
+Subtitle: The Keeper of Secrets
+Guide text:
+Not everything reveals itself at first glance. Search the room carefully and uncover the hidden objects. When all required objects are found, the golden key will appear. Click it to claim your reward.
+Arabic guide copy
+If the selected guide is داون:
+العنوان: داون
+العنوان الفرعي: الحالمة الهادئة
+النص:
+تأمّل المكان جيدًا فبعض الدلالات تختبئ على مرأى من الجميع ابحث عن العناصر المخفية داخل الغرفة وعند العثور عليها كلها سيظهر المفتاح الذهبي اضغط عليه لتجميعه ومتابعة الرحلة
+If the selected guide is دَسك:
+العنوان: دَسك
+العنوان الفرعي: حافظ الأسرار
+النص:
+ليست كل التفاصيل واضحة من النظرة الأولى فتّش الغرفة بعناية واكشف العناصر المخفية وعندما تعثر على العناصر المطلوبة كلها سيظهر المفتاح الذهبي اضغط عليه لتحصل عليه وتكمل رحلتك
+Make sure the Arabic is high-quality and natural, not literal or awkward.
+4) OBJECT DISCOVERY FEEDBACK
+When the player finds an object:
+the found object should react clearly
+give it a satisfying glow / pulse
+mark it as found in the bottom progress area
+show a small elegant success state
+keep the experience soft and magical, not loud
+When all required objects are found:
+show a clear completion state
+display a short success message in the active language
+English completion text
+All hidden objects found. The golden key has appeared.
+Arabic completion text
+تم العثور على جميع العناصر المخفية ظهر المفتاح الذهبي
+5) GOLDEN KEY FIX
+There is currently a problem where the player finishes the room but cannot collect the key.
+Fix this completely.
+Required behavior
+After all required objects are found:
+reveal the golden key
+place it clearly and elegantly in the center or another obvious visible spot
+give the key a strong soft golden glow
+make the key itself clickable
+when the player clicks the key:collect the key successfully
+add it to the key inventory / top tracker
+show a success message
+mark the room as completed
+update garden progress correctly
+
+Success text
+English:
+Golden key collected
+Arabic:
+تم جمع المفتاح الذهبي
+Do not require extra confusing steps after completion.
+The key must be easy to click and impossible to bug out.
+6) GOLD KEY VISUAL CONSISTENCY
+Use a golden key icon, not a black key, in this room and anywhere related to room completion.
+The key should remain visually consistent with the rest of the game:
+warm gold
+soft magical glow
+elegant fantasy feel
+7) ROOM TEXT QUALITY
+Review all visible text in this room and make sure:
+Arabic mode = all room UI and gameplay text in natural Arabic
+English mode = correct English
+no mixed-language labels unless intentionally required
+no awkward literal translation
+room instructions are clear and concise
+8) FINAL CHECK
+Verify all of the following:
+first room remains a hidden-object game
+target objects are hidden behind / among furniture and decor
+objects are discoverable but not too obvious
+every interactive button / box / control / modal has glow
+reset confirmation buttons also glow
+guide text is updated in Arabic and English
+guide text changes correctly depending on Dawn or Dusk
+all room text is polished
+after finishing the room, the golden key appears
+the golden key is clickable
+clicking the key successfully collects it
+room completion updates correctly
+no bug prevents collecting the key
+Only make these refinements.

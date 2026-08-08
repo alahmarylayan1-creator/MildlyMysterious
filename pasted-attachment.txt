@@ -1,0 +1,531 @@
+أكيد، هذا هو البرومبت الشامل المدموج لكل التعديلات اللي ذكرتيها هنا:
+
+Use this as the complete refinement prompt for View Portfolio Directly.
+
+Do not redesign the portfolio.
+
+Do not change the overall colors, typography, background, glow style, spacing system, navigation structure, bilingual behavior, audio behavior, or existing approved visual identity.
+
+Only apply the refinements below.
+
+EDUCATION & LANGUAGES CARD SIZE
+
+Fix the Education and Languages cards so they are exactly the same size.
+
+Requirements:
+
+The Education card and the Languages card must have identical:
+
+width
+
+height
+
+padding
+
+border radius
+
+border thickness
+
+internal spacing
+
+Keep both cards aligned cleanly on the same row.
+
+Make both cards visually balanced even if one contains more text than the other.
+
+If necessary, slightly rebalance the inner layout so both cards feel equal and polished.
+
+Do not shrink the text too much just to force the fit.
+
+Preserve the current bilingual behavior.
+
+Preserve the current content.
+
+Preserve the current hover glow behavior.
+
+Do not change the wording.
+
+Final result:
+
+Both cards must appear as matching paired cards.
+
+Neither card should look taller, wider, or visually denser than the other.
+
+CONTENT CONSISTENCY BETWEEN NORMAL AND EXPANDED VIEWS
+
+Make the text shown in the normal card view exactly match the text shown inside the expanded modal.
+
+Do not use different wording between collapsed and expanded states.
+
+This applies especially to:
+
+Summer Internship
+
+Video Production
+
+Academic / University Projects
+
+Skills
+
+Technical Contribution
+
+and every other expandable content card.
+
+If a card displays a:
+
+title
+
+subtitle
+
+description
+
+category
+
+label
+
+or supporting text
+
+outside the modal, the expanded modal must use the exact same approved wording for that same content.
+
+Do not invent alternate descriptions for expanded states.
+
+Do not show older versions of text inside modals.
+
+Do not shorten or rewrite content just because the card is expanded.
+
+The expanded modal may improve:
+
+text size
+
+spacing
+
+layout
+
+readability
+
+but the wording must remain consistent.
+
+SUMMER INTERNSHIP CONSISTENCY
+
+Keep the Summer Internship wording identical inside and outside the expanded view.
+
+Focus Areas must use exactly:
+
+English:
+
+Educational Video Production
+
+AI-Assisted Content Creation
+
+Coding and Technical Tasks
+
+Collaborative Workflows
+
+Arabic:
+
+إنتاج الفيديوهات التعليمية
+
+إنشاء المحتوى بمساعدة الذكاء الاصطناعي
+
+المهام البرمجية والتقنية
+
+العمل التعاوني
+
+Do not use:
+
+Digital Projects
+
+المشاريع الرقمية
+
+Do not use different Focus Area names in the expanded modal.
+
+SUMMER INTERNSHIP EXPANDED HOVER GLOW
+
+Inside the expanded Summer Internship modal, each Focus Area item must have the same hover glow interaction as it has in the normal view.
+
+Current issue:
+
+the Focus Area elements glow outside the expanded panel, but not clearly inside the expanded panel.
+
+Fix this.
+
+Apply independent hover glow to each Focus Area container inside the expanded modal.
+
+On hover:
+
+brighten the border
+
+add soft inner illumination
+
+add soft outer glow
+
+use Sky Rose #ffb3e6 as the main glow
+
+blend with Soft Lavender #9b72cf
+
+slightly lift the container approximately 2px
+
+scale very slightly around 1.01
+
+use a smooth 350–450ms transition
+
+The icon and inner content should feel illuminated as part of the card.
+
+Do not use harsh text-shadow.
+
+Do not make Focus Area items open another modal.
+
+They only need hover interaction.
+
+VIDEO PRODUCTION CONSISTENCY
+
+Make the Video Production content identical between normal and expanded states.
+
+Use this exact production-process text everywhere.
+
+Arabic:
+
+شملت عملية إنتاج الفيديوهات مراجعة المواد والمحتوى، وتحديد المفاهيم الأساسية وتبسيطها، وإعداد النصوص التعليمية، وتصميم المحتوى المرئي، وإنتاج التعليق الصوتي بمساعدة الذكاء الاصطناعي، والمونتاج، والتسليم النهائي.
+
+English:
+
+The video production process included reviewing source materials and content, identifying and simplifying key concepts, developing educational scripts, designing visual content, producing AI-assisted voice-over, editing, and final delivery.
+
+Do not show any previous version mentioning fourteen videos.
+
+Do not show a specific video count inside the production-process paragraph.
+
+Keep the video category statistics unchanged.
+
+ACADEMIC / UNIVERSITY PROJECT MODALS
+
+For every Academic / University Project:
+
+make the title and description inside the expanded modal exactly match the approved title and description shown in the normal project card.
+
+Do not generate another description after expansion.
+
+Apply this to:
+
+AI Clothing Identification System
+
+Internship Matching System
+
+E-commerce Website
+
+Real Estate System
+
+Arabic titles must remain:
+
+نظام التعرّف على الملابس باستخدام الذكاء الاصطناعي
+
+نظام مواءمة فرص التدريب
+
+موقع للتجارة الإلكترونية
+
+نظام عقاري
+
+Do not invent technical details.
+
+ARABIC MODAL LABELS
+
+When Arabic mode is selected, translate all modal interface labels into Arabic.
+
+Current issue:
+
+DETAILS remains in English.
+
+Fix this.
+
+When AR is selected:
+
+DETAILS → التفاصيل
+
+CLOSE → إغلاق
+
+VIEW DETAILS → عرض التفاصيل
+
+OPEN → فتح
+
+BACK → رجوع
+
+and any similar modal interface labels must appear in Arabic.
+
+When EN is selected:
+
+keep the English labels.
+
+Do not mix Arabic content with English modal interface text.
+
+This applies across:
+
+Summer Internship
+
+Video Production
+
+Academic Projects
+
+Skills
+
+Technical Contribution
+
+Certificates
+
+Recognition
+
+and all other expandable views.
+
+SKILLS STRUCTURE
+
+Keep the Skills section divided into exactly two groups.
+
+Arabic:
+
+المهارات الصلبة
+
+المهارات الناعمة
+
+English:
+
+Hard Skills
+
+Soft Skills
+
+HARD SKILLS
+
+English:
+
+Digital Content Production
+
+Educational Content Development
+
+Video Editing
+
+Content Analysis and Simplification
+
+Scriptwriting
+
+Digital Marketing
+
+AI-Assisted Content Creation
+
+Arabic:
+
+إنتاج المحتوى الرقمي
+
+تطوير المحتوى التعليمي
+
+مونتاج الفيديو
+
+تحليل المحتوى وتبسيطه
+
+كتابة النصوص
+
+التسويق الرقمي
+
+إنشاء المحتوى بمساعدة الذكاء الاصطناعي
+
+SOFT SKILLS
+
+English:
+
+Creativity and Innovation
+
+Research Skills
+
+Problem Solving
+
+Attention to Detail
+
+Time Management
+
+Critical Thinking
+
+Analytical Thinking
+
+Arabic:
+
+الإبداع والابتكار
+
+مهارات البحث
+
+حل المشكلات
+
+الاهتمام بالتفاصيل
+
+إدارة الوقت
+
+التفكير النقدي
+
+التفكير التحليلي
+
+Keep the same two-group structure in both:
+
+normal Skills section
+
+expanded Skills modal
+
+Do not mix the two groups.
+
+Do not add new skills.
+
+Do not add presentation or public-speaking skills.
+
+Keep each individual skill badge hoverable with the existing Sky Rose glow.
+
+BACK TO TOP BUTTON
+
+Add a floating Back to Top button to View Portfolio Directly.
+
+Use a simple elegant upward arrow icon.
+
+The button should be fixed near the lower corner of the viewport.
+
+Do not cover important content.
+
+Keep safe spacing from page edges.
+
+Do not make it large or distracting.
+
+English accessible label / tooltip:
+
+Back to Top
+
+Arabic:
+
+العودة للأعلى
+
+When clicked:
+
+smoothly scroll the visitor to the top of View Portfolio Directly.
+
+Do not reload the page.
+
+Do not reset:
+
+language
+
+audio state
+
+mute state
+
+current portfolio data
+
+navigation state
+
+BACK TO TOP VISIBILITY
+
+When the visitor is already near the top of the page:
+
+keep the button hidden or very subtle.
+
+After the visitor scrolls down:
+
+softly fade the button in.
+
+BACK TO TOP VISUAL STYLE
+
+Use:
+
+dark translucent purple glass
+
+Soft Lavender border
+
+Sky Rose glow
+
+optional subtle Soft Gold detail
+
+clear upward arrow icon
+
+On hover:
+
+lift approximately 2–3px
+
+slightly scale up
+
+increase Sky Rose glow
+
+brighten the border
+
+use smooth 350–450ms transition
+
+On click:
+
+use a subtle press effect
+
+then smoothly scroll upward.
+
+Do not use an instant harsh jump.
+
+RTL / LTR POSITIONING
+
+In English mode:
+
+prefer the lower right corner if it fits the current layout.
+
+In Arabic mode:
+
+the button may move to the lower left if appropriate for RTL.
+
+Do not move it if this causes overlap or inconsistent navigation.
+
+The main priority is easy access and no interference with content.
+
+BILINGUAL CONSISTENCY
+
+When EN is selected:
+
+all normal cards and expanded modals must remain English.
+
+When AR is selected:
+
+all normal cards and expanded modals must be Arabic.
+
+Do not allow an English expanded modal to open from an Arabic card.
+
+Do not allow an Arabic modal to open from an English card.
+
+Keep official technology and brand names unchanged where appropriate.
+
+FINAL CHECK
+
+Before finishing, verify:
+
+Education and Languages cards are exactly equal in size.
+
+They have identical width, height, padding, border radius, border thickness, and internal spacing.
+
+Collapsed and expanded content uses the same approved wording.
+
+No old or alternate text remains inside expanded modals.
+
+Summer Internship Focus Areas use identical wording inside and outside expansion.
+
+Each Summer Internship Focus Area glows independently inside the expanded modal.
+
+Video Production uses the same updated production-process paragraph everywhere.
+
+No old fourteen-video sentence remains.
+
+Academic Project cards and modals use matching titles and descriptions.
+
+DETAILS becomes التفاصيل in Arabic mode.
+
+All modal controls follow the active language.
+
+Skills remain divided into:
+
+المهارات الصلبة / Hard Skills
+
+المهارات الناعمة / Soft Skills
+
+Back to Top appears after scrolling.
+
+Back to Top smoothly returns to the top.
+
+Back to Top works in both Arabic and English modes.
+
+Language and audio state remain unchanged after using Back to Top.
+
+Do not redesign the portfolio.
+
+Do not change approved game mechanics.

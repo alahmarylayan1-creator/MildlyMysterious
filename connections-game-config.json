@@ -1,0 +1,362 @@
+أكيد — **ما فيه غرفة واضحة حاليًا داخل اللعبة مخصصة لإظهار مهاراتك بشكل مباشر**، لذلك **هذا المكان مناسب جدًا** نخلي نهايته تكشف **قسم المهارات** عندك.  
+وهذا أفضل أصلًا لأن لعبة **Connect** تناسب المهارات + المفاهيم + الأدوات.
+
+هذا **برومبت جاهز** تنسخينه في Figma Make:
+
+---
+
+**Use this as the next refinement prompt.**
+
+Do not redesign the whole game.  
+Keep the current dreamy lavender visual identity, soft glow system, bilingual system, gold key system, and overall room-navigation structure.
+
+I want to replace the current game in this room with a **Connections-style grouping game** that fits my Information Systems / digital content portfolio theme.
+
+## 1) ROOM IDENTITY
+Rename this room so it fits the new puzzle concept.
+
+### English room name:
+**The Insight Studio**
+
+### Arabic room name:
+**استوديو الروابط**
+
+Use this room title consistently:
+- on the hub / map
+- at room entry
+- in the room header
+- in the completion / key reward state
+
+Add a short room subtitle:
+
+### English subtitle:
+**Tools, ideas, and skills — connected with intention**
+
+### Arabic subtitle:
+**أدوات وأفكار ومهارات ترتبط بمعنى واضح**
+
+---
+
+## 2) GAME TYPE
+Replace the old activity in this room with a **Connections-style puzzle**:
+
+The player sees **16 tiles**.  
+They must group them into **4 correct groups of 4**.
+
+Use the same gameplay logic as a classic connections game:
+- click tiles to select
+- selected tiles visibly highlight
+- Submit button checks the group
+- if correct, the 4 tiles lock together and reveal the category label
+- if incorrect, show a subtle error state
+- allow Shuffle
+- allow Deselect / Clear Selection
+- show remaining mistakes if that system already exists
+- use smooth animations and smooth glow
+- keep the game easy to understand and not overly difficult
+
+---
+
+## 3) GUIDE INTRO AT ROOM START
+At the beginning of the room, show the selected companion (Dawn or Dusk) and let them explain the room in both languages depending on the current language setting.
+
+### If English is active:
+
+#### Dawn intro:
+**Welcome to the Insight Studio.  
+Here, ideas belong together — your task is to find the hidden connections.  
+Group the tiles into four correct sets of four.  
+Each completed group reveals a part of the story behind my work.**
+
+#### Dusk intro:
+**Welcome to the Insight Studio.  
+Not every connection is obvious at first glance.  
+Look carefully, group the tiles into four related sets, and the pattern will reveal itself.  
+Complete all four groups to unlock the golden key.**
+
+### If Arabic is active:
+
+#### Dawn intro:
+**مرحبًا بك في استوديو الروابط  
+في هذه الغرفة لكل عنصر علاقة بمعنى أكبر  
+المطلوب هو تجميع البطاقات في أربع مجموعات صحيحة  
+ومع كل مجموعة مكتملة ستنكشف لك دلالة جديدة من ملامح أعمالي ومهاراتي**
+
+#### Dusk intro:
+**مرحبًا بك في استوديو الروابط  
+ليست كل العلاقات واضحة من النظرة الأولى  
+تأمل البطاقات جيدًا ثم اجمعها في أربع مجموعات مترابطة  
+وعند إكمال المجموعات الأربع سيظهر المفتاح الذهبي**
+
+Keep the same chosen guide identity and portrait style already used in the game.
+
+---
+
+## 4) TILE CONTENT
+Use these exact four groups of four.
+
+### Group 1
+Category label English:
+**AI Tools**
+
+Category label Arabic:
+**أدوات الذكاء الاصطناعي**
+
+Tiles:
+- ChatGPT
+- Gemini
+- Copilot
+- ElevenLabs
+
+Note:
+Keep these tool names in English in both language modes.
+
+---
+
+### Group 2
+Category label English:
+**Video Production**
+
+Category label Arabic:
+**إنتاج الفيديو**
+
+Tiles English:
+- Script
+- Voice-over
+- Editing
+- Visuals
+
+Tiles Arabic:
+- كتابة النص
+- التعليق الصوتي
+- المونتاج
+- المحتوى البصري
+
+---
+
+### Group 3
+Category label English:
+**Business Concepts**
+
+Category label Arabic:
+**مفاهيم الأعمال**
+
+Tiles English:
+- Marketing
+- Accounting
+- Strategy
+- Project Management
+
+Tiles Arabic:
+- التسويق
+- المحاسبة
+- الاستراتيجية
+- إدارة المشاريع
+
+---
+
+### Group 4
+Category label English:
+**Skills**
+
+Category label Arabic:
+**المهارات**
+
+Tiles English:
+- Research
+- Creativity
+- Analysis
+- Problem Solving
+
+Tiles Arabic:
+- البحث
+- الإبداع
+- التحليل
+- حل المشكلات
+
+---
+
+## 5) BILINGUAL BEHAVIOR
+The room must fully support both Arabic and English.
+
+### English mode:
+- room title in English
+- guide text in English
+- category names in English
+- tile labels in English
+
+### Arabic mode:
+- room title in Arabic
+- guide text in Arabic
+- category names in Arabic
+- tile labels in Arabic
+
+### Important exception:
+For **AI Tools**, keep the tile names in English even in Arabic mode:
+- ChatGPT
+- Gemini
+- Copilot
+- ElevenLabs
+
+Make sure the Arabic text is natural and meaning-based, not literal or awkward.
+
+---
+
+## 6) UI LABELS
+Translate all gameplay labels based on the active language.
+
+### English:
+- Create four groups of four
+- Shuffle
+- Clear Selection
+- Submit
+- Mistakes Remaining
+- Correct Group
+- Try Again
+- Room Complete
+- Collect Golden Key
+
+### Arabic:
+- كوّن أربع مجموعات من أربع بطاقات
+- إعادة الترتيب
+- إلغاء التحديد
+- تأكيد
+- المحاولات المتبقية
+- مجموعة صحيحة
+- حاول مرة أخرى
+- تم إنجاز الغرفة
+- اجمع المفتاح الذهبي
+
+Use elegant Arabic wording and keep the typography aligned with the existing game style.
+
+---
+
+## 7) CATEGORY REVEAL STATE
+When the player solves a category:
+- lock the four matching tiles together
+- show the revealed category name above or on the completed row/card
+- keep the same dreamy lavender / purple / soft gold palette
+- each completed category should feel rewarding
+- use smooth glow and a subtle success animation
+
+---
+
+## 8) FINAL REVEAL AFTER ALL FOUR GROUPS
+After all 4 groups are solved, show a centered completion panel.
+
+This room should reveal a **Skills-focused summary**, since this room is the best place in the game to surface my skills clearly.
+
+### English completion title:
+**Core Strengths Revealed**
+
+### Arabic completion title:
+**انكشفت الملامح الأساسية**
+
+### English completion text:
+**This room brings together the tools, production workflow, business understanding, and core skills that shape my work.  
+It highlights strengths in research, creativity, analysis, and problem solving, supported by AI tools and digital content production experience.**
+
+### Arabic completion text:
+**تجمع هذه الغرفة بين الأدوات ومسار إنتاج المحتوى والفهم المرتبط بالأعمال والمهارات الأساسية التي تشكل أسلوبي في العمل  
+كما تبرز جوانب القوة في البحث والإبداع والتحليل وحل المشكلات مدعومة باستخدام أدوات الذكاء الاصطناعي وخبرة في إنتاج المحتوى الرقمي**
+
+### Optional skill badge display in the completion panel:
+Show these skill badges clearly:
+- Research / البحث
+- Creativity / الإبداع
+- Analysis / التحليل
+- Problem Solving / حل المشكلات
+
+This makes the room feel directly connected to my portfolio.
+
+---
+
+## 9) GOLDEN KEY REWARD
+At the end of the room:
+- show a **large golden key**
+- the key must be clearly visible and centered
+- the player must **click the key manually** to collect it
+- do not auto-collect the key
+
+### English:
+Button or prompt:
+**Collect Golden Key**
+
+### Arabic:
+**اجمع المفتاح الذهبي**
+
+When the player clicks the key:
+- animate the key smoothly
+- move it into the room progress / key inventory system
+- mark the room as completed
+- update the overall game progression
+
+Important:
+Make this manual click-to-collect behavior apply to **all keys across the whole game**, not only this room.  
+Every room key in the game should be:
+- visible
+- clickable
+- manually collected by the player
+
+Do not auto-award keys anymore.
+
+---
+
+## 10) VISUAL / INTERACTION STYLE
+Keep the room fully consistent with the current game style:
+- dreamy lavender atmosphere
+- soft purple background
+- smooth pink-lavender glow
+- soft gold key visuals
+- elegant dark translucent panels
+- soft hover states
+- polished rounded cards
+- gentle success animation
+- bilingual typography behavior
+
+Make sure:
+- buttons glow on hover
+- selected tiles glow clearly
+- completed groups feel distinct
+- transitions are smooth
+- nothing feels abrupt
+
+---
+
+## 11) ROOM NAVIGATION + GUIDE PRESENCE
+At room start:
+- show the selected companion portrait and intro
+- then allow the player to start the puzzle
+
+After completion:
+- keep the room-complete state elegant
+- allow return to the garden / hub
+
+If the game already has a top hint/help pattern, keep it.
+
+---
+
+## 12) FINAL CHECK
+Verify all of the following:
+- this room is now a Connections-style game
+- room name becomes **The Insight Studio / استوديو الروابط**
+- guide explanation appears at the beginning in Arabic and English
+- Arabic mode uses natural Arabic wording
+- English mode uses English wording
+- AI tool names remain English in both modes
+- all 16 tiles appear correctly
+- categories resolve correctly
+- the final reveal focuses on my skills
+- the golden key appears at the end
+- the user must click the key to collect it
+- this same manual key collection behavior applies to all room keys in the whole game
+
+Do not redesign the entire project.  
+Only replace this room’s gameplay and completion flow with this refined bilingual Connections experience.
+
+---
+
+إذا تبين، أقدر بعده مباشرة أكتب لك **برومبت ثاني مكمل قصير جدًا** خاص فقط بـ:
+1. **شكل الغرفة بصريًا**  
+2. **نصوص القايد Dawn و Dusk داخل هذه الغرفة بشكل ألطف وأكثر شخصية**  
+3. **شكل المفتاح الذهبي القابل للضغط في كل الغرف**

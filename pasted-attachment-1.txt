@@ -1,0 +1,667 @@
+إي، هنا لازم نعطي Figma أمر **أقوى من مجرد “translate to Arabic”**، لأنه واضح أنه يترجم بعض الكلمات حرفيًا ويترك بعضها إنجليزي. أبغاه يتعامل مع النسخة العربية كـ **تعريب كامل للعبة** مع مراجعة لغوية، وليس ترجمة آلية.
+
+انسخي هذا البرومبت:
+
+Use this as a complete Arabic localization refinement for the entire GAME experience.
+
+Do not redesign the game.
+
+Do not change:
+game mechanics
+room mechanics
+puzzles
+keys
+progress logic
+companions
+map structure
+audio
+room completion logic
+visual identity
+
+Only fix and improve the Arabic localization across the ENTIRE game.
+
+IMPORTANT ARABIC LOCALIZATION RULE
+
+When AR is selected, the entire game must be Arabic.
+
+Do not translate word-by-word mechanically.
+
+Translate the MEANING naturally into clear, polished Arabic that sounds like an Arabic game interface.
+
+The Arabic should feel:
+natural
+clear
+professional
+lightly mysterious
+easy to understand
+appropriate for the dreamy fantasy atmosphere
+
+Avoid awkward literal translations.
+
+Avoid sentences that sound translated directly from English.
+
+Do not leave random English UI words visible while Arabic mode is active.
+
+Official brand names or technical names may remain in English only when necessary.
+
+PLAYER-ADDRESS RULE
+
+Keep player-directed Arabic as neutral as possible.
+
+Avoid unnecessarily gendered commands such as:
+اختاري
+ابدئي
+اتبعي
+انظري
+
+Prefer neutral game-interface wording such as:
+اختر
+ابدأ
+اكتشف
+تابع
+رجوع
+مساعدة
+حاول مرة أخرى
+
+CHARACTER GENDER RULE
+
+Only descriptions OF the characters should match their gender.
+
+Dawn is female:
+داون — الحالمة الهادئة
+هادئة · مبدعة · فضولية
+
+Dusk is male:
+دَسك — حافظ الأسرار
+حكيم · دقيق الملاحظة · غامض
+
+COMPANION SELECTION
+
+English:
+Choose Your Companion
+
+Arabic:
+اختر رفيق رحلتك
+
+English:
+Your companion through the garden of discoveries
+
+Arabic:
+رفيقك في رحلة عبر حديقة الاكتشافات
+
+OR:
+أو
+
+Choose Dawn:
+اختر داون
+
+Choose Dusk:
+اختر دَسك
+
+Selected:
+تم الاختيار
+
+Begin the Journey:
+ابدأ الرحلة
+
+Back:
+رجوع
+
+Do not use:
+Guide
+مرشد
+دليل
+اختر المرشد
+
+Use Companion / رفيق الرحلة consistently.
+
+ADVENTURE MAP
+
+Review every visible Arabic label on the Adventure Map.
+
+Use natural Arabic terminology.
+
+Adventure Map:
+خريطة الرحلة
+
+Keys Collected:
+المفاتيح التي جُمعت
+
+0/5 Keys:
+0/5 مفاتيح
+
+Progress:
+التقدّم
+
+Completed:
+مكتملة
+
+Locked:
+مغلقة
+
+Ready to Unlock:
+جاهز للفتح
+
+Help:
+مساعدة
+
+Hints:
+تلميحات
+
+Bag / Inventory:
+الحقيبة
+
+Map:
+الخريطة
+
+Back:
+رجوع
+
+Return to Map:
+العودة إلى الخريطة
+
+Start Challenge:
+ابدأ التحدي
+
+Continue:
+متابعة
+
+Next:
+التالي
+
+Close:
+إغلاق
+
+Try Again:
+حاول مرة أخرى
+
+Correct:
+إجابة صحيحة
+
+Incorrect:
+إجابة غير صحيحة
+
+Room Complete:
+اكتملت الغرفة
+
+Key Collected:
+تم الحصول على المفتاح
+
+Do not use awkward literal phrases if a more natural Arabic game phrase exists.
+
+ROOM 1 — PORTRAIT ROOM
+
+Use:
+
+English:
+Portrait Room
+
+Arabic:
+غرفة الصورة الشخصية
+
+Do not use an unclear transliteration such as:
+غرفة البورتريه
+
+if natural Arabic can be used.
+
+Suitable supporting wording:
+
+Discover the details that tell the story.
+
+Arabic:
+اكتشف التفاصيل التي تكشف ملامح القصة.
+
+Found 0/3:
+تم العثور على 0/3
+
+Clues:
+الأدلة
+
+Journal:
+دفتر الأفكار
+
+University Scroll:
+المسيرة الأكاديمية
+
+Camera:
+السرد البصري
+
+About Me:
+نبذة عني
+
+Education:
+التعليم
+
+Languages:
+اللغات
+
+Continue:
+متابعة
+
+Use the approved portfolio information when the information cards appear.
+
+ROOM 2 — CURIOUS CABINET
+
+English:
+Curious Cabinet
+
+Arabic:
+خزانة الفضول
+
+Use natural Arabic instructions such as:
+
+Match each tool with its correct place.
+
+Arabic:
+طابق كل أداة مع المكان المناسب لها.
+
+Tools:
+الأدوات
+
+Correct Match:
+تطابق صحيح
+
+Try another place:
+جرّب مكانًا آخر
+
+The cabinet is ready. Open it.
+
+Arabic:
+أصبحت الخزانة جاهزة. افتحها لاكتشاف ما بداخلها.
+
+Do not translate technology names:
+
+Canva
+PowerPoint
+ChatGPT
+ElevenLabs
+GitHub
+Visual Studio
+
+Translate their skill descriptions naturally into Arabic.
+
+ROOM 3 — LAVENDER STUDIO
+
+English:
+Lavender Studio
+
+Arabic:
+استوديو اللافندر
+
+Use:
+
+Complete the image to reveal the work.
+
+Arabic:
+أكمل الصورة للكشف عن الأعمال.
+
+Pieces Placed:
+القطع الموضوعة
+
+0/9 Pieces:
+0/9 قطع
+
+Play Video:
+تشغيل الفيديو
+
+Promotional Video:
+فيديو ترويجي
+
+Educational Video:
+فيديو تعليمي
+
+Tools Used:
+الأدوات المستخدمة
+
+Project:
+المشروع
+
+Keep project titles and descriptions consistent with the approved portfolio Arabic localization.
+
+Do not generate alternate Arabic descriptions.
+
+ROOM 4 — WORKSHOP
+
+English:
+Workshop
+
+Arabic:
+ورشة المراجعة
+
+This is better than a vague literal:
+الورشة
+
+because this room is about reviewing and deciding.
+
+Use:
+
+Review & Decide
+
+Arabic:
+راجع واتخذ القرار
+
+Content Accuracy:
+دقة المحتوى
+
+Visual Quality:
+الجودة البصرية
+
+Technical Readiness:
+الجاهزية التقنية
+
+Pass:
+مستوفى
+
+Needs Improvement:
+يحتاج إلى تحسين
+
+Approve:
+اعتماد
+
+Needs Revision:
+يحتاج إلى تعديل
+
+Run Final Review:
+إجراء المراجعة النهائية
+
+Correct Decision:
+قرار صحيح
+
+Try Again:
+حاول مرة أخرى
+
+Use natural Arabic explanations after each decision.
+
+Do not translate “Needs Revision” into awkward literal wording.
+
+ROOM 5 — LEARNING GALLERY
+
+English:
+Learning Gallery
+
+Arabic:
+معرض التعلّم
+
+Use natural Arabic for the memory-matching game.
+
+Match the Cards:
+طابق البطاقات
+
+Pairs Found:
+الأزواج المكتشفة
+
+Attempts:
+المحاولات
+
+Match:
+تطابق
+
+No Match:
+غير متطابق
+
+Completed:
+مكتمل
+
+Keep the existing game mechanics unchanged.
+
+Do not redesign this room.
+
+FINAL DOOR
+
+English:
+Final Door
+
+Arabic:
+الباب الأخير
+
+Prefer:
+الباب الأخير
+
+instead of an awkward literal phrase such as:
+الباب النهائي
+
+Locked:
+مغلق
+
+The final door requires all five keys.
+
+Arabic:
+يحتاج الباب الأخير إلى المفاتيح الخمسة لفتحه.
+
+Keys Collected:
+المفاتيح التي جُمعت
+
+Ready to Unlock:
+جاهز للفتح
+
+Place the five keys in their correct positions.
+
+Arabic:
+ضع المفاتيح الخمسة في أماكنها الصحيحة.
+
+Unlock:
+فتح الباب
+
+Incorrect Position:
+المكان غير صحيح
+
+Correct Position:
+المكان صحيح
+
+FINAL COMPLETION SCREEN
+
+Journey Complete
+
+Arabic:
+اكتملت الرحلة
+
+Use this Arabic meaning for the approved final sentence:
+
+English:
+Behind every completed room is a story of learning, creativity, and growth.
+
+Arabic:
+وراء كل غرفة مكتملة حكاية من التعلّم والإبداع والتطوّر.
+
+Summary categories:
+
+Information Systems
+نظم المعلومات
+
+Digital Content
+المحتوى الرقمي
+
+AI-Assisted Creation
+الإبداع بمساعدة الذكاء الاصطناعي
+
+Web Technologies
+تقنيات الويب
+
+Video Production
+إنتاج الفيديو
+
+Technical Contribution
+المساهمة التقنية
+
+View Full Portfolio:
+عرض ملف الأعمال الكامل
+
+Contact Me:
+التواصل
+
+Return to Map:
+العودة إلى الخريطة
+
+RABBIT DIALOGUE
+
+Translate the rabbit dialogue by meaning, not literally.
+
+Use natural mysterious Arabic such as:
+
+بعض الأسرار لا تظهر إلا لمن ينظر مرة أخرى.
+
+ليس كل ما خفي كُتب له أن يبقى مخفيًا.
+
+العين الفضولية قد تكون أول مفتاح.
+
+لكل غرفة سر... والسؤال هو أين يختبئ؟
+
+الطريق الواضح ليس دائمًا الطريق الوحيد.
+
+خمس غرف، خمسة مفاتيح، وسر أخير.
+
+دقق النظر، فقد تكون أصغر التفاصيل هي الأهم.
+
+كل لغز يترك أثرًا.
+
+قد يكون الدليل التالي أمامك بالفعل.
+
+المفاتيح تُكتسب بالفضول، لا بالحظ.
+
+القليل من الغموض يجعل كل اكتشاف أجمل.
+
+Do not translate the rabbit dialogue into stiff formal Arabic.
+
+Keep it elegant and mysterious.
+
+COMPANION DIALOGUE
+
+Every Dawn or Dusk dialogue inside all five rooms must also switch completely to Arabic when AR is active.
+
+Do not leave their room introductions in English.
+
+Their Arabic speech should retain their personalities:
+
+Dawn:
+warm
+gentle
+curious
+encouraging
+
+Dusk:
+calm
+wise
+observant
+mysterious
+
+Do not make their Arabic dialogue identical in tone.
+
+GLOBAL GAME UI AUDIT
+
+Search the entire game implementation for visible English strings.
+
+When AR is active, verify and translate:
+
+buttons
+navigation
+room names
+room subtitles
+challenge instructions
+modal titles
+modal descriptions
+progress labels
+key labels
+locked states
+completion states
+error messages
+success messages
+tooltips
+Help dialogs
+companion dialogue
+rabbit dialogue
+map labels
+final-door labels
+final completion screen
+inventory labels
+sound-related labels
+language-related labels
+all small interface text
+
+Do not overlook tiny labels.
+
+ENGLISH MODE
+
+When EN is selected, preserve the approved English version.
+
+Do not replace English permanently with Arabic.
+
+ARABIC MODE
+
+When AR is selected:
+
+all game interface text must switch to Arabic.
+
+Use RTL layout where appropriate.
+
+Keep numbers, brand names, technical tool names, and proper names readable.
+
+Do not mirror character artwork or game illustrations unnecessarily.
+
+LANGUAGE STATE
+
+Changing the language must NOT reset:
+
+selected companion
+completed rooms
+keys
+current room
+game progress
+puzzle progress where technically possible
+mute state
+audio state
+
+The player must remain on the same screen after changing languages.
+
+FINAL ARABIC QUALITY CHECK
+
+Before finishing, manually review AR mode screen by screen:
+
+Landing Page
+
+Companion Selection
+
+Adventure Map
+
+Portrait Room
+
+Curious Cabinet
+
+Lavender Studio
+
+Workshop
+
+Learning Gallery
+
+Final Door
+
+Journey Complete
+
+Verify that:
+
+there is no accidental English UI remaining
+
+Arabic wording sounds natural rather than machine-translated
+
+room names are understandable
+
+instructions clearly explain what the player needs to do
+
+buttons use concise Arabic game-language
+
+Dawn and Dusk dialogue keeps their individual personalities
+
+player-directed wording is neutral
+
+all five rooms are fully localized
+
+the Final Door is fully localized
+
+all completion and error messages are localized
+
+English mode still works correctly
+
+Do not change game mechanics.
+
+Do not redesign the game.
+
+This refinement is specifically a complete Arabic localization and language-quality pass for the entire game.
