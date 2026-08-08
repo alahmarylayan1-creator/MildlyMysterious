@@ -1,0 +1,11 @@
+{
+  "title": "Mildly Mysterious",
+  "description": "Explore an interactive portfolio game designed for Information Systems students, featuring whimsical environments and engaging story-driven experiences.",
+  "robots": {
+    "index": true
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
